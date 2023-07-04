@@ -351,17 +351,6 @@ footer{
     padding: 1rem 0 3rem 0;
 }
 
-.row_end{
-    display: flex;
-    justify-content: space-between;
-    border-top: 3px solid white;
-}    
-
-.end_one, .end_two{
-    width:calc(100% / 12 * 2);
-    margin: 1rem 0 1rem 0;
-}
-
 footer h3{
     color: var(--tm-dsc-primary);
     font-size: 30px;
@@ -385,6 +374,17 @@ footer h3{
 }
 
 
+.row_end{
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid white;
+}   
+
+
+.end_one, .end_two{
+    width:calc(100% / 12 * 2);
+    margin: 1rem 0 1rem 0;
+}
 
 
 /* #endregion Footer */
