@@ -165,6 +165,8 @@ header{
     width: 50%;    
 }
 
+
+
 /* #endregion Header */
 
 /* #region First Section */
@@ -178,9 +180,7 @@ header{
     padding-bottom: 5rem; 
 }
 
-.main_one{
-    padding: 3rem 0 6rem 0;
-}
+
 
 .jumbo{
     display: flex;
@@ -198,7 +198,6 @@ header{
 
 .commands{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -211,8 +210,6 @@ h1, .jumbo_text p{
 }
 
 
-
-
 /* #endregion First Section */
 
 /* #region Second Section */
@@ -223,44 +220,61 @@ h1, .jumbo_text p{
 
 /* #endregion Second Section */
 
-
 /* #region Third Section */
-
 
 .section_three{
     background-color: var(--tm-dsc-grey);
 }
 
-
 /* #endregion Third Section */
 
-
 /* #region Fourth Section */
-
 
 .section_four{
     background-color: white;
 }
 
-.main_four{
-    padding: 1rem;
-}
-
-
-
 /* #endregion Fourth Section */
-
 
 /* #region Big Section */
 
 .big_section{
     padding: 1rem 0 3rem 0;
-    background-color: purple;
+    background-color: var(--tm-dsc-grey);
+}
+
+.row_big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row_big p{
+    text-align: center;
+    width: 80%;
+}
+
+.row_big img{
+    width: 100%;
+}
+
+.main_foot{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row_big h3{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-size: 30px;
+    margin: 0 2.5rem 0 2.5rem;
 }
 
 
-/* #endregion Big Section */
 
+/* #endregion Big Section */
 
 /* #region Footer */
 
@@ -289,7 +303,9 @@ footer{
 /* #region Links */
 a{
     text-decoration: none;
-    color: white;    
+    color: white; 
+    border-radius: 20px;
+    padding: 0.5rem 1rem;   
 }
 
 a:hover{
@@ -300,8 +316,7 @@ a:hover{
     color: black;
     background-color: white;
     border: 1px solid white;
-    border-radius: 15px;
-    padding: 0.35rem;
+    
     font-size: small;
 }
 
@@ -324,6 +339,11 @@ a:hover{
 .open{
     color: white;
     background-color: var(--tm-dsc-dark);
+}
+
+.row_big a{
+    background-color: var(--tm-dsc-primary);  
+    margin-bottom: 6rem;
 }
 
 
