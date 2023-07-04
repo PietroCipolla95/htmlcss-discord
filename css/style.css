@@ -11,6 +11,12 @@ body{
     font-family: 'gg sans SemiBold', sans-serif;
 }
 
+:root{
+    --tm-dsc-header: #3161E0;
+    --tm-dsc-primary: #6F85D3;
+    --tm-dsc-dark: #23272A;
+}
+
 
 /* #region Debug */
 
@@ -122,9 +128,11 @@ body{
 /* #endregion Utlity */
 
 /* #region Header */
+
 header{
-    background-color: rgb(61, 61, 173);
+    background-color: var(--tm-dsc-header);
 }
+
 
 .row_header{
     display: flex;
@@ -132,18 +140,27 @@ header{
     padding: 1rem 0 1rem 0;
 }
 
+.login{
+    text-align: right;
+}
 
-.head_1, .head_3{
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo, .login{
     width: 25%;
 }
 
-.head_2{
+.menu{
     width: 50%;    
 }
 
 /* #endregion Header */
 
 /* #region First Section */
+
 
 .section_one{
     background-color: rgb(61, 61, 173);
@@ -158,8 +175,6 @@ header{
 
 
 /* #endregion First Section */
-
-
 
 /* #region Second Section */
 
@@ -244,4 +259,25 @@ footer{
 }
 
 /* #endregion Footer */
+
+/* #region Links */
+a{
+    text-decoration: none;
+    color: white;    
+}
+
+a:hover{
+    color: var(--tm-dsc-dark);
+}
+
+.login > a{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 0.35rem;
+    font-size: small;
+}
+
+/* #endregion Links */
 
