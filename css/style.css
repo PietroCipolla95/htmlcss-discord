@@ -239,7 +239,7 @@ h1, .jumbo_text p{
 
 
 .section_four{
-    background-color: palevioletred;
+    background-color: white;
 }
 
 .main_four{
@@ -329,9 +329,16 @@ a:hover{
 
 /* #endregion Links */
 
+/* #region Wave */
 
 .wave{
     height: 100px;
     background-image: url(../img/wave.svg);
     opacity: 0.08;
 }
+
+.wave_two{
+    rotate: 180deg;
+}
+
+/* #endregion Wave */
