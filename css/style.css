@@ -408,12 +408,18 @@ footer h4{
     display: flex;
     justify-content: space-between;
     border-top: 3px solid white;
+    padding-bottom: 5rem;
 }   
 
 
 .foot_logo, .signup{
     width:calc(100% / 12 * 2);
     margin: 1rem 0 1rem 0;
+}
+
+#pcol_15{
+    padding-top: 0.5rem;
+    padding-left: 0;
 }
 
 
