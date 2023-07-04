@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'gg sans', sans-serif;
+    font-family: 'gg sans Normal', sans-serif;
+    font-family: 'gg sans Medium', sans-serif;
+    font-family: 'gg sans SemiBold', sans-serif;
+}
+
 
 /* #region Debug */
 
 
-.debug .col_8, .col_4, .col_15{
+.debug .col_8 .col_4 .col_15{
     height: 250px;
     background-color: yellow;
     border: 3px dotted black;
@@ -32,7 +39,7 @@
     background-color: brown;
 }
 
-.debug .head_1, .head_2, .head_3{
+.debug .head_1 .head_2 .head_3{
     height: 60px;
     border: 1px solid red;
     background-color: black;
@@ -63,7 +70,7 @@
     background-color: grey;
 }
 
-.debug .end_one, .end_two{
+.debug .end_one .end_two{
     height: 50px;
     background-color: black;
 } 
@@ -90,7 +97,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: brown;
 }
 
 
@@ -119,9 +125,6 @@
 header{
     background-color: rgb(61, 61, 173);
 }
-
-
-
 
 .row_header{
     display: flex;
