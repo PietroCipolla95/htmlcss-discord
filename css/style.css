@@ -136,6 +136,69 @@ h2{
 
 /* #endregion Utlity */
 
+/* #region Links */
+a{
+    text-decoration: none;
+    color: white; 
+    border-radius: 20px;
+    padding: 0.5rem 1rem;   
+}
+
+a:hover{
+    color: var(--tm-dsc-dark);
+}
+
+.login > a{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    
+    font-size: small;
+}
+
+
+.download, .open{
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+}
+
+.download{
+    color: var(--tm-dsc-dark);
+    background-color: white;
+    margin-right: 1.5rem;    
+}
+
+.open:hover{
+    color: var(--tm-dsc-header);
+}
+
+.open{
+    color: white;
+    background-color: var(--tm-dsc-dark);
+}
+
+.row_big a{
+    background-color: var(--tm-dsc-primary);  
+    margin-bottom: 6rem;
+}
+
+
+/* #endregion Links */
+
+/* #region Wave */
+
+.wave{
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    opacity: 0.08;
+}
+
+.wave_two{
+    rotate: 180deg;
+}
+
+/* #endregion Wave */
+
 /* #region Header */
 
 header{
@@ -255,7 +318,7 @@ h1, .jumbo_text p{
 }
 
 .row_big img{
-    width: 100%;
+    width: 90%;
 }
 
 .main_foot{
@@ -283,7 +346,7 @@ h1, .jumbo_text p{
 }
 
 footer{
-    background-color: rgb(61, 61, 173);
+    background-color: var(--tm-dsc-dark);
     padding: 1rem 0 3rem 0;
 }
 
@@ -300,65 +363,4 @@ footer{
 
 /* #endregion Footer */
 
-/* #region Links */
-a{
-    text-decoration: none;
-    color: white; 
-    border-radius: 20px;
-    padding: 0.5rem 1rem;   
-}
 
-a:hover{
-    color: var(--tm-dsc-dark);
-}
-
-.login > a{
-    color: black;
-    background-color: white;
-    border: 1px solid white;
-    
-    font-size: small;
-}
-
-
-.download, .open{
-    border-radius: 20px;
-    padding: 0.5rem 1.5rem;
-}
-
-.download{
-    color: var(--tm-dsc-dark);
-    background-color: white;
-    margin-right: 1.5rem;    
-}
-
-.open:hover{
-    color: var(--tm-dsc-header);
-}
-
-.open{
-    color: white;
-    background-color: var(--tm-dsc-dark);
-}
-
-.row_big a{
-    background-color: var(--tm-dsc-primary);  
-    margin-bottom: 6rem;
-}
-
-
-/* #endregion Links */
-
-/* #region Wave */
-
-.wave{
-    height: 100px;
-    background-image: url(../img/wave.svg);
-    opacity: 0.08;
-}
-
-.wave_two{
-    rotate: 180deg;
-}
-
-/* #endregion Wave */
