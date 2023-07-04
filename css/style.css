@@ -163,13 +163,24 @@ header{
 
 
 .section_one{
-    background-color: rgb(61, 61, 173);
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;      
 }
 
 .main_one{
-    display: flex;
-    justify-content: center;
     padding: 3rem 0 6rem 0;
+}
+
+.jumbo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commands{
+    display: flex;
+    flex-direction: row;
 }
 
 
