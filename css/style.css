@@ -120,6 +120,10 @@ body{
 
 .col_15{
     width: calc(100% / 12 * 2);
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .card{
@@ -144,15 +148,22 @@ a{
     padding: 0.5rem 1rem;   
 }
 
-a:hover{
+a:hover, .signup a:hover{
     color: var(--tm-dsc-dark);
+}
+
+.signin:hover, .download:hover{
+    color: var(--tm-dsc-primary);
+}
+
+.login{
+    text-align: right;
 }
 
 .login > a{
     color: black;
     background-color: white;
-    border: 1px solid white;
-    
+    border: 1px solid white;    
     font-size: small;
 }
 
@@ -183,6 +194,21 @@ a:hover{
 }
 
 
+.signup > a{
+    background-color: var(--tm-dsc-primary);   
+    text-align: right;     
+}
+
+.signup{
+    text-align: right;
+}
+
+footer a:hover{
+    color: var(--tm-dsc-primary);
+}
+
+
+
 /* #endregion Links */
 
 /* #region Wave */
@@ -211,9 +237,6 @@ header{
     padding: 1rem 0 1rem 0;
 }
 
-.login{
-    text-align: right;
-}
 
 .menu{
     display: flex;
@@ -370,9 +393,16 @@ footer h3{
     background-color: var(--tm-dsc-dark);
     border: none;
     width:fit-content;
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
+.socialmedia{
+    margin-left: -1rem;
+}
+
+footer h4{
+    color: var(--tm-dsc-primary);
+}
 
 .row_end{
     display: flex;
@@ -381,10 +411,11 @@ footer h3{
 }   
 
 
-.end_one, .end_two{
+.foot_logo, .signup{
     width:calc(100% / 12 * 2);
     margin: 1rem 0 1rem 0;
 }
+
 
 
 /* #endregion Footer */
