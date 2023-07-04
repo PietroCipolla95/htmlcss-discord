@@ -133,6 +133,7 @@ header{
     background-color: var(--tm-dsc-header);
 }
 
+
 h1{
     font-size: 2.5rem;
 }
@@ -173,7 +174,9 @@ h1, .jumbo_text p{
 .section_one{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-position: center;  
+    background-position: center; 
+    padding-top: 5rem;
+    padding-bottom: 5rem; 
 }
 
 .main_one{
