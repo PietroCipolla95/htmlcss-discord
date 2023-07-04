@@ -133,6 +133,14 @@ header{
     background-color: var(--tm-dsc-header);
 }
 
+h1{
+    font-size: 2.5rem;
+}
+
+h1, .jumbo_text p{
+    color: white;
+}
+
 
 .row_header{
     display: flex;
@@ -165,7 +173,7 @@ header{
 .section_one{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-position: center;      
+    background-position: center;  
 }
 
 .main_one{
@@ -175,13 +183,25 @@ header{
 .jumbo{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.jumbo_text p{
+    margin: 2rem 0 1.5rem 0;
+    text-align: center;
 }
 
 .commands{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
+
+
+
 
 
 
@@ -289,6 +309,24 @@ a:hover{
     padding: 0.35rem;
     font-size: small;
 }
+
+
+.download, .open{
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+}
+
+.download{
+    color: var(--tm-dsc-dark);
+    background-color: white;
+    margin-right: 1.5rem;    
+}
+
+.open{
+    color: white;
+    background-color: var(--tm-dsc-dark);
+}
+
 
 /* #endregion Links */
 
